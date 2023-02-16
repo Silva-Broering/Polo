@@ -1,13 +1,29 @@
 :root {
-    --branco: white;
+    --branco: rgb(233, 233, 233);
     --cinza: grey;
     --azul: blue; 
     --preto: black;
 }
 
+.principal {
+    background-image: url(images/Background.png);
+ 
+}
+
+#ALura {
+    width: 10px;
+}
+
+.container {
+    height: 70vh;
+    
+}
+
+
 body {
     height: 100vh;
     box-sizing: border-box;
     background-color: var(--preto);
-
+    color: var(--branco);
 }
+
