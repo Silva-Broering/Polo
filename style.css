@@ -16,7 +16,7 @@
 .AssineJá {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 20px;
     align-items: center;
     width: 40%;
     margin-right: auto;
@@ -28,6 +28,7 @@
 
 .container__imagem {
     width: 58%;
+    margin: 20px 0;
 }
 
 h1 {
