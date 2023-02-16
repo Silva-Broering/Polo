@@ -1,29 +1,78 @@
 :root {
     --branco: rgb(233, 233, 233);
-    --cinza: grey;
-    --azul: blue; 
-    --preto: black;
+    --cinza: rgb(202, 202, 202);
+    --azul: #167BF7; 
+    --azulhover: #1266ce;
+    --azulclick: #0c4b97;
+    --preto: #00030C;
 }
 
 .principal {
     background-image: url(images/Background.png);
- 
+    background-repeat: no-repeat;
+    background-size:contain;
 }
 
-#ALura {
-    width: 10px;
+.AssineJá {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    width: 40%;
+    margin-right: auto;
 }
 
 .container {
-    height: 70vh;
-    
+    height: 100vh;   
 }
 
+.container__imagem {
+    width: 58%;
+}
+
+h1 {
+    color: var(--branco);
+    font-size: 2.5em;
+    margin-top: 80px;
+    margin-left: 10px;
+    text-align: center;
+}
 
 body {
     height: 100vh;
     box-sizing: border-box;
     background-color: var(--preto);
+    color: var(--cinza);
+}
+
+.container__botão {
+    text-decoration: none;
+    color: var(--branco);
+    background-color: var(--azul);
+    padding: 18px 190px;
+    border-radius: 6px;
+    display: block;
+    margin-left: 10px;
+}
+
+.container__botão:hover {
+    background-color: var(--azulhover);
+    transition: 150ms;
+}
+
+.container__botão:active {
+    background-color: var(--azulclick);
+}
+
+.botao_sec {
+    background-color: transparent;
+    border: 2px solid var(--branco);
+    border-radius: 6px;
+    padding: 18px 196px;
+    text-decoration: none;
     color: var(--branco);
 }
 
+.container__aviso {
+    color: var(--branco);
+}
