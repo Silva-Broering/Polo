@@ -113,3 +113,37 @@ body {
     margin-top: 1rem;
     text-align: center;
 }
+
+.rodapé__lista {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.rodapé__imagem {
+    margin-bottom: 40px;
+}
+
+.rodapé {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 10rem;
+}
+
+.Link__anc {
+    text-decoration: none;
+    color: var(--branco);
+}
+
+.Link__anc:hover {
+    color: var(--azulhover);
+}
+
+.Link__anc:active {
+    color: var(--azulclick);
+}
+
+.rodapé__firstline, .rodapé__lines {
+    margin: 30px 0;
+}
