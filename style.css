@@ -33,8 +33,8 @@
 
 h1 {
     color: var(--branco);
-    font-size: 2.5em;
-    margin-top: 80px;
+    font-size: 2.5rem;
+    margin-top: 30%;
     margin-left: 10px;
     text-align: center;
 }
@@ -69,11 +69,17 @@ body {
     background-color: transparent;
     border: 2px solid var(--branco);
     border-radius: 6px;
-    padding: 18px 196px;
+    padding: 18px 200px;
+    margin-left: 7px;
     text-decoration: none;
     color: var(--branco);
 }
 
 .container__aviso {
     color: var(--branco);
+}
+
+.compiuta {
+    display: flex;
+
 }
